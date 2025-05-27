@@ -1,6 +1,7 @@
 package com.holisticapp.fitness.ui.facial
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -18,6 +19,7 @@ import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.camera.view.PreviewView
 import androidx.core.content.ContextCompat
 import com.holisticapp.fitness.R
+import com.holisticapp.fitness.ui.music.MusicPlayerActivity
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*
@@ -31,6 +33,7 @@ class FacialExpressionActivity : AppCompatActivity() {
     private lateinit var captureButton: Button
     private lateinit var retakeButton: Button
     private lateinit var analyzeButton: Button
+    private lateinit var playMusicButton: Button
     private lateinit var capturedImageView: ImageView
     private lateinit var resultTextView: TextView
     private lateinit var emotionEmojiView: TextView
@@ -39,6 +42,7 @@ class FacialExpressionActivity : AppCompatActivity() {
     private var imageCapture: ImageCapture? = null
     private lateinit var cameraExecutor: ExecutorService
     private var capturedImageFile: File? = null
+    private var detectedEmotion: String? = null
     
     // Facial expressions with emojis and descriptions
     private val expressions = listOf(
@@ -84,6 +88,7 @@ class FacialExpressionActivity : AppCompatActivity() {
         captureButton = findViewById(R.id.captureButton)
         retakeButton = findViewById(R.id.retakeButton)
         analyzeButton = findViewById(R.id.analyzeButton)
+        playMusicButton = findViewById(R.id.playMusicButton)
         capturedImageView = findViewById(R.id.capturedImageView)
         resultTextView = findViewById(R.id.resultTextView)
         emotionEmojiView = findViewById(R.id.emotionEmojiView)
@@ -108,6 +113,10 @@ class FacialExpressionActivity : AppCompatActivity() {
         
         analyzeButton.setOnClickListener {
             analyzeExpression()
+        }
+        
+        playMusicButton.setOnClickListener {
+            playMusic()
         }
     }
     
@@ -187,6 +196,7 @@ class FacialExpressionActivity : AppCompatActivity() {
         captureButton.visibility = android.view.View.GONE
         retakeButton.visibility = android.view.View.VISIBLE
         analyzeButton.visibility = android.view.View.VISIBLE
+        playMusicButton.visibility = android.view.View.VISIBLE
     }
     
     private fun retakePhoto() {
@@ -198,6 +208,7 @@ class FacialExpressionActivity : AppCompatActivity() {
         captureButton.visibility = android.view.View.VISIBLE
         retakeButton.visibility = android.view.View.GONE
         analyzeButton.visibility = android.view.View.GONE
+        playMusicButton.visibility = android.view.View.GONE
         
         // Hide result views
         hideResultViews()
@@ -212,14 +223,23 @@ class FacialExpressionActivity : AppCompatActivity() {
         val randomExpression = expressions.random()
         val confidence = Random.nextInt(75, 96) // Random confidence between 75-95%
         
+        // Store detected emotion
+        detectedEmotion = randomExpression.name
+        
         // Show results
         showResultViews()
         emotionEmojiView.text = randomExpression.emoji
         resultTextView.text = randomExpression.name
         confidenceTextView.text = "Confidence: $confidence%"
         
-        // Show description
-        Toast.makeText(this, randomExpression.description, Toast.LENGTH_LONG).show()
+        // Show description and music suggestion
+        val musicMood = mapEmotionToMood(randomExpression.name)
+        val message = "${randomExpression.description}\n\n🎵 Suggested music: $musicMood"
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show()
+        
+        // Show play music button
+        playMusicButton.visibility = android.view.View.VISIBLE
+        playMusicButton.text = "🎵 Play $musicMood Music"
         
         // Simulate processing delay
         analyzeButton.isEnabled = false
@@ -231,16 +251,39 @@ class FacialExpressionActivity : AppCompatActivity() {
         }, 2000)
     }
     
+    private fun mapEmotionToMood(emotion: String): String {
+        return when (emotion.lowercase()) {
+            "happy" -> "Happy"
+            "sad" -> "Sad"
+            "angry" -> "Angry"
+            "surprised" -> "Happy" // Surprised maps to upbeat music
+            "neutral" -> "Calm"
+            "anxious" -> "Calm" // Anxious maps to calming music
+            "focused" -> "Calm" // Focused maps to concentration music
+            else -> "Happy" // Default to happy music
+        }
+    }
+    
+    private fun playMusic() {
+        // Implement the logic to play music based on the detected emotion
+        val emotion = detectedEmotion ?: "Neutral"
+        val intent = Intent(this, MusicPlayerActivity::class.java)
+        intent.putExtra("emotion", emotion)
+        startActivity(intent)
+    }
+    
     private fun hideResultViews() {
         emotionEmojiView.visibility = android.view.View.GONE
         resultTextView.visibility = android.view.View.GONE
         confidenceTextView.visibility = android.view.View.GONE
+        playMusicButton.visibility = android.view.View.GONE
     }
     
     private fun showResultViews() {
         emotionEmojiView.visibility = android.view.View.VISIBLE
         resultTextView.visibility = android.view.View.VISIBLE
         confidenceTextView.visibility = android.view.View.VISIBLE
+        // playMusicButton visibility is handled in analyzeExpression()
     }
     
     private fun rotateBitmap(bitmap: Bitmap, degrees: Float): Bitmap {

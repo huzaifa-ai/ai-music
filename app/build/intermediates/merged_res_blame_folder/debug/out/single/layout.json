@@ -1,66 +1,70 @@
 [
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/fragment_settings.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/fragment_settings.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/card_weather_workout.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/card_weather_workout.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/card_workout_recommendation.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/card_workout_recommendation.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/item_song.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/item_song.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/activity_splash.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/activity_splash.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/activity_splash.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/card_mental_health.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/card_mental_health.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/activity_main.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/activity_main.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/activity_main.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/fragment_home.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/activity_music_player.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/activity_music_player.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/fragment_progress.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/fragment_progress.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/fragment_assessment.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/fragment_assessment.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/card_mental_health.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/card_mental_health.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/card_weather_workout.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/card_weather_workout.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/activity_music_player.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/activity_music_player.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/item_song.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/item_song.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/activity_auth.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/activity_auth.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/card_facial_mood.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/card_facial_mood.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/fragment_settings.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/fragment_settings.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/fragment_profile.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/fragment_profile.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/card_workout_recommendation.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/card_workout_recommendation.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/activity_auth.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/activity_auth.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/fragment_assessment.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/fragment_assessment.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/fragment_progress.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/fragment_progress.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/card_facial_mood.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/card_facial_mood.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/fragment_home.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/fragment_home.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/fragment_profile.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/fragment_profile.xml"
     },
     {
         "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/activity_facial_expression.xml",
         "source": "com.holisticapp.fitness.app-main-45:/layout/activity_facial_expression.xml"
     },
     {
-        "merged": "com.holisticapp.fitness.app-mergeDebugResources-42:/layout/card_mood_music.xml",
-        "source": "com.holisticapp.fitness.app-main-45:/layout/card_mood_music.xml"
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/activity_facial_expression.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/activity_facial_expression.xml"
+    },
+    {
+        "merged": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-mergeDebugResources-42:/layout/card_mood_music.xml",
+        "source": "/Users/affanlaptops/.gradle/daemon/7.5/com.holisticapp.fitness.app-main-45:/layout/card_mood_music.xml"
     }
 ]

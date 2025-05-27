@@ -68,8 +68,17 @@ class MusicPlayerActivity : AppCompatActivity() {
         setupSeekBar()
         setupMoodSelection()
         
-        // Start with Happy mood
-        selectMood("Happy")
+        // Check if emotion was passed from facial expression analysis
+        val detectedEmotion = intent.getStringExtra("emotion")
+        if (detectedEmotion != null) {
+            // Map facial expressions to music moods
+            val musicMood = mapEmotionToMood(detectedEmotion)
+            Toast.makeText(this, "🎭 Detected emotion: $detectedEmotion\n🎵 Playing $musicMood music", Toast.LENGTH_LONG).show()
+            selectMood(musicMood)
+        } else {
+            // Start with Happy mood if no emotion detected
+            selectMood("Happy")
+        }
     }
     
     private fun initViews() {
@@ -472,6 +481,19 @@ class MusicPlayerActivity : AppCompatActivity() {
         // Pause music when activity is paused
         if (isPlaying) {
             pauseMusic()
+        }
+    }
+    
+    private fun mapEmotionToMood(emotion: String): String {
+        return when (emotion.lowercase()) {
+            "happy" -> "Happy"
+            "sad" -> "Sad"
+            "angry" -> "Angry"
+            "surprised" -> "Happy" // Surprised maps to upbeat music
+            "neutral" -> "Calm"
+            "anxious" -> "Calm" // Anxious maps to calming music
+            "focused" -> "Calm" // Focused maps to concentration music
+            else -> "Happy" // Default to happy music
         }
     }
     

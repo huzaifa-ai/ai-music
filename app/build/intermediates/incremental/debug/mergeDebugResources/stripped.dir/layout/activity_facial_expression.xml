@@ -127,6 +127,20 @@
             android:layout_marginBottom="16dp"
             android:visibility="gone" />
 
+        <!-- Play Music Button -->
+        <Button
+            android:id="@+id/playMusicButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="🎵 Play Music"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/music_button_background"
+            android:textColor="@android:color/white"
+            android:paddingHorizontal="24dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone" />
+
     </LinearLayout>
 
     <!-- Control Buttons -->

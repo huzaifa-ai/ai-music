@@ -3099,6 +3099,7 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable music_button_background
 drawable music_player_background
 drawable navigation_empty_icon
 drawable notification_action_background
@@ -3514,6 +3515,7 @@ id peekHeight
 id percent
 id performance
 id pin
+id playMusicButton
 id playPauseButton
 id playlistRecyclerView
 id position

@@ -115,6 +115,7 @@ drawable ic_settings
 drawable ic_shuffle
 drawable ic_spotify
 drawable icon_gradient
+drawable music_button_background
 drawable music_player_background
 drawable play_button_background
 drawable retake_button_background
@@ -175,6 +176,7 @@ id nav_progress
 id nav_settings
 id nextButton
 id passwordEditText
+id playMusicButton
 id playPauseButton
 id playlistRecyclerView
 id previewView

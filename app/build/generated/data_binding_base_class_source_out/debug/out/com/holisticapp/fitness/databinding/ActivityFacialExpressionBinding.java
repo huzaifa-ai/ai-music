@@ -42,6 +42,9 @@ public final class ActivityFacialExpressionBinding implements ViewBinding {
   public final TextView emotionEmojiView;
 
   @NonNull
+  public final Button playMusicButton;
+
+  @NonNull
   public final PreviewView previewView;
 
   @NonNull
@@ -53,8 +56,9 @@ public final class ActivityFacialExpressionBinding implements ViewBinding {
   private ActivityFacialExpressionBinding(@NonNull LinearLayout rootView,
       @NonNull Button analyzeButton, @NonNull ImageButton backButton, @NonNull Button captureButton,
       @NonNull ImageView capturedImageView, @NonNull TextView confidenceTextView,
-      @NonNull TextView emotionEmojiView, @NonNull PreviewView previewView,
-      @NonNull TextView resultTextView, @NonNull Button retakeButton) {
+      @NonNull TextView emotionEmojiView, @NonNull Button playMusicButton,
+      @NonNull PreviewView previewView, @NonNull TextView resultTextView,
+      @NonNull Button retakeButton) {
     this.rootView = rootView;
     this.analyzeButton = analyzeButton;
     this.backButton = backButton;
@@ -62,6 +66,7 @@ public final class ActivityFacialExpressionBinding implements ViewBinding {
     this.capturedImageView = capturedImageView;
     this.confidenceTextView = confidenceTextView;
     this.emotionEmojiView = emotionEmojiView;
+    this.playMusicButton = playMusicButton;
     this.previewView = previewView;
     this.resultTextView = resultTextView;
     this.retakeButton = retakeButton;
@@ -130,6 +135,12 @@ public final class ActivityFacialExpressionBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.playMusicButton;
+      Button playMusicButton = ViewBindings.findChildViewById(rootView, id);
+      if (playMusicButton == null) {
+        break missingId;
+      }
+
       id = R.id.previewView;
       PreviewView previewView = ViewBindings.findChildViewById(rootView, id);
       if (previewView == null) {
@@ -149,8 +160,8 @@ public final class ActivityFacialExpressionBinding implements ViewBinding {
       }
 
       return new ActivityFacialExpressionBinding((LinearLayout) rootView, analyzeButton, backButton,
-          captureButton, capturedImageView, confidenceTextView, emotionEmojiView, previewView,
-          resultTextView, retakeButton);
+          captureButton, capturedImageView, confidenceTextView, emotionEmojiView, playMusicButton,
+          previewView, resultTextView, retakeButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
