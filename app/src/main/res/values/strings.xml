@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Holistic Fitness</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="submit">Submit</string>
+    <string name="loading">Loading…</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="try_again">Try Again</string>
+    
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_instructions">Enter your email address to receive instructions to reset your password.</string>
+    <string name="reset_email_sent">Reset email sent. Please check your inbox.</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="field_required">This field is required</string>
+    <string name="passwords_dont_match">Passwords don\'t match</string>
+    <string name="invalid_email">Invalid email address</string>
+    <string name="password_too_short">Password must be at least 6 characters</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_assessment">Assessment</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Home -->
+    <string name="welcome_back">Welcome back, %1$s!</string>
+    <string name="todays_quote">Today\'s Quote</string>
+    <string name="workout_recommendation">Workout Recommendation</string>
+    <string name="mood_based_music">Mood-Based Music</string>
+    <string name="facial_mood_detection">Facial Mood Detection</string>
+    <string name="mental_health_assessment">Mental Health Assessment</string>
+    <string name="weather_based_workout">Weather-Based Workout</string>
+    <string name="start_workout">Start Workout</string>
+    <string name="skip">Skip</string>
+    <string name="detect_mood">Detect Mood</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="current_weather">Current Weather</string>
+    <string name="suggested_workout">Suggested Workout</string>
+    <string name="age">Age</string>
+    <string name="body_fat">Body Fat %</string>
+    <string name="current_mood">Current Mood</string>
+    <string name="get_recommendation">Get Recommendation</string>
+    <string name="select_mood">Select Mood</string>
+    <string name="get_playlist">Get Playlist</string>
+    <string name="take_assessment">Take Assessment</string>
+    
+    <!-- Moods -->
+    <string name="mood_happy">Happy</string>
+    <string name="mood_sad">Sad</string>
+    <string name="mood_calm">Calm</string>
+    <string name="mood_energetic">Energetic</string>
+    <string name="mood_focused">Focused</string>
+    <string name="mood_stressed">Stressed</string>
+    <string name="mood_anxious">Anxious</string>
+    <string name="mood_tired">Tired</string>
+    <string name="mood_angry">Angry</string>
+    <string name="mood_neutral">Neutral</string>
+    
+    <!-- Assessment -->
+    <string name="daily_assessment">Daily Assessment</string>
+    <string name="weekly_assessment">Weekly Assessment</string>
+    <string name="monthly_assessment">Monthly Assessment</string>
+    <string name="phq9_title">PHQ-9 Depression Assessment</string>
+    <string name="gad7_title">GAD-7 Anxiety Assessment</string>
+    <string name="assessment_instructions">Over the last 2 weeks, how often have you been bothered by the following problems?</string>
+    <string name="assessment_option_0">Not at all</string>
+    <string name="assessment_option_1">Several days</string>
+    <string name="assessment_option_2">More than half the days</string>
+    <string name="assessment_option_3">Nearly every day</string>
+    <string name="assessment_complete">Assessment Complete</string>
+    <string name="assessment_score">Your score: %1$d</string>
+    <string name="assessment_export">Export Results</string>
+    
+    <!-- Progress -->
+    <string name="progress_overview">Progress Overview</string>
+    <string name="filter_by_date">Filter by Date</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="sleep_patterns">Sleep Patterns</string>
+    <string name="calories">Calories</string>
+    <string name="workout_frequency">Workout Frequency</string>
+    <string name="mood_trends">Mood Trends</string>
+    <string name="export_data">Export Data</string>
+    
+    <!-- Profile -->
+    <string name="personal_info">Personal Information</string>
+    <string name="name">Name</string>
+    <string name="age_years">Age (years)</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="body_fat_percentage">Body Fat Percentage</string>
+    <string name="fitness_goals">Fitness Goals</string>
+    <string name="health_conditions">Health Conditions</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="logout">Logout</string>
+    
+    <!-- Settings -->
+    <string name="theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+    <string name="notifications">Notifications</string>
+    <string name="workout_reminders">Workout Reminders</string>
+    <string name="assessment_reminders">Assessment Reminders</string>
+    <string name="data_sync">Data Sync</string>
+    <string name="privacy">Privacy</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    <string name="backup_restore">Backup &amp; Restore</string>
+    <string name="backup">Backup Data</string>
+    <string name="restore">Restore Data</string>
+    <string name="language">Language</string>
+    
+    <string name="welcome_message">Welcome to your fitness journey!</string>
+    <string name="get_started">Get Started</string>
+    <string name="view_progress">View Progress</string>
+    <string name="settings">Settings</string>
+</resources>

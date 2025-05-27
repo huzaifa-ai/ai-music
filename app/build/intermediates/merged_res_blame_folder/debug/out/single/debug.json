@@ -1,0 +1,242 @@
+[
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_face_detection_overlay.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/face_detection_overlay.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_control_button_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/control_button_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/font_roboto_medium_regular.ttf.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/font/roboto_medium_regular.ttf"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_assessment.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_assessment.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_item_song.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/item_song.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_activity_auth.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_card_gradient.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/card_gradient.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_fragment_profile.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_progress.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_progress.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_facial_analysis_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/facial_analysis_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_card_facial_mood.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/card_facial_mood.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_previous.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_previous.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_circle_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_refresh.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_card_mood_music.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/card_mood_music.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_album_art_placeholder.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/album_art_placeholder.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_next.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_next.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_emoji_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/emoji_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_auth_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/auth_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_capture_button_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/capture_button_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_pause.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_activity_facial_expression.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/activity_facial_expression.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_spotify.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_spotify.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_home.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_song_item_selected.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/song_item_selected.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_activity_splash.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_album_art_gradient.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/album_art_gradient.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_launcher.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_profile.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_play.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_play.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_button_gradient.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/button_gradient.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_settings.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_fragment_home.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_camera.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_song_item_normal.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/song_item_normal.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_google.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_email.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_retake_button_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/retake_button_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_face.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_face.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_fragment_settings.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_fragment_assessment.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/fragment_assessment.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/font_roboto_regular.ttf.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_tab_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/tab_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_fragment_progress.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/fragment_progress.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_play_button_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/play_button_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_lock.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_card_weather_workout.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/card_weather_workout.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_activity_music_player.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/activity_music_player.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_analyze_button_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/analyze_button_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_repeat.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_repeat.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_card_workout_recommendation.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/card_workout_recommendation.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_music_player_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/music_player_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_app_logo.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/app_logo.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_splash_background.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/splash_background.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/layout_card_mental_health.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/layout/card_mental_health.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_ic_shuffle.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/ic_shuffle.xml"
+    },
+    {
+        "merged": "com.holisticapp.fitness.app-merged_res-43:/drawable_icon_gradient.xml.flat",
+        "source": "com.holisticapp.fitness.app-main-45:/drawable/icon_gradient.xml"
+    }
+]
